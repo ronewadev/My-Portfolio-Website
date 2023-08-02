@@ -1,0 +1,257 @@
+body {
+    background-image: url(images/background.png);
+    
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    font-weight: bolder;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-color: rgb(75, 109, 120);
+    width: 150px;
+    cursor: pointer;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+nav{
+    flex: 1;
+    margin-left: 20%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a{
+    
+    color: black;
+    
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    
+    color: rgb(4, 174, 236);
+    
+    text-decoration: underline
+}
+
+
+.social-medial-links{
+   transform: rotate(-90deg);
+   position: absolute;
+   margin-left: 5%;
+   left: -100px;
+   top: 360px;
+}
+
+.social-medial-links a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    padding-right: 20px;
+    font-size: 15px;
+
+}
+
+.social-medial-links a:hover{
+    text-decoration: underline;
+    color: rgb(6, 137, 225);
+    font-size: 17px;
+    left: 3%;
+    
+}
+
+.container_contact h1{
+    align-content: center;
+    margin-top: 5%;
+   font-family: 'Courier New', Courier, monospace;
+   margin-left: 10%;
+   display: flex;
+   font-size: 50px;
+   color: black;
+   -webkit-text-fill-color: white; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+
+}
+
+
+
+.container_contact p{
+    margin-left: 15%;
+    display: flex;
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contacts_txt{
+margin-top: -15.6%;
+width: 78%;
+display: block;
+
+position: absolute;
+right: 100px;
+
+}
+
+.contacts_txt a{
+    color: rgb(61, 61, 61);
+}
+.contacts_txt .emailtxt{
+    margin-bottom: 35px;
+    font-size: 20px;
+    
+}
+.contacts_txt .calltxt{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.contacts_txt .whatsapptxt{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.contacts_txt .facebooktxt{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+
+
+.container_contact .email{
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+}
+
+.email img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.email img:hover{
+    height: 50px;
+    width: 50px;
+   
+}
+
+
+.container_contact .call{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10%;
+   
+    
+}
+.call img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.call img:hover{
+    height: 50px;
+    width: 50px;
+   
+}
+
+
+.container_contact .whatsapp{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10%;
+    
+}
+.whatsapp img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.whatsapp img:hover{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+   
+}
+
+.container_contact .facebook{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10%;
+    
+}
+.facebook img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+   
+}
+
+.facebook img:hover{
+    height: 50px;
+    width: 50px;
+   
+}
+
+
+
+
+
+.container_contact .profile{
+margin-top: 10%;
+width: 30%;
+height: 80%;
+position: absolute;
+right: 100px;
+top: 0%;
+}
+
+
+
+.programmer img{
+    margin-left: 60%;
+    margin-right: 10px;
+    width: 500px;
+    margin-top: -17%;
+    }
+
+.container_contact .details{
+    
+   
+}
+.profile img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: block;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    
+}
+
+
+.profile:hover .shape{
+    left: 40%;
+}
+.profile:hover .profile_pic{
+bottom: 40px;
+}
+
+
+
